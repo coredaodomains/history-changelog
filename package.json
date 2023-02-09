@@ -27,9 +27,9 @@
   "packageManager": "yarn@3.2.4",
   "dependencies": {
     "diff": "^5.1.0",
-    "execa": "^6.1.0",
+    "execa": "5.1.1",
     "semver": "^7.3.8",
-    "yargs": "^17.6.2"
+    "yargs": "^17.0.1"
   },
   "devDependencies": {
     "@cnsjs/eslint-config": "^0.0.1",

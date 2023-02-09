@@ -2,32 +2,32 @@
 
 Coredomains version changelog utilities
 
-This package has a CLI rel-changelog and an API.
+This package has a CLI gen-changelog and an API.
 
-# Installation 
+# Installation
 
-```bash 
-yarn add --dev @coredomains/rel-changelog
+```bash
+yarn add --dev @coredomains/gen-changelog
 # Or
-npm install --save-dev @coredomains/rel-changelog
+npm install --save-dev @coredomains/gen-changelog
 ```
 
 # CLI Usage
 
 - To update the 'Unreleased' section of the changelog:
 
-npx @coredomains/rel-changelog update
+npx @coredomains/gen-changelog update
 
 - To update the current release section of the changelog:
 
-npx @coredomains/rel-changelog update --rc
+npx @coredomains/gen-changelog update --rc
 
 # Validate
 
 To validate the changelog:
 
-npx @coredomains/rel-changelog validate
+npx @coredomains/gen-changelog validate
 
 To validate the changelog in a release candidate environment:
 
-npx @coredomains/rel-changelog validate --rc
+npx @coredomains/gen-changelog validate --rc
